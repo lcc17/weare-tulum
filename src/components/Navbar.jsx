@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "/logo.png";
 
 export default function Navbar({ language, setLanguage }) {
   const content = {
@@ -21,7 +22,7 @@ export default function Navbar({ language, setLanguage }) {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="/logo.png"
+              src={logo}
               alt="WE ARE Logo"
               className="h-12 w-12 hover:scale-105 transition-transform duration-300"
             />

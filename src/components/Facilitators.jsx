@@ -1,4 +1,7 @@
 import { useState } from "react";
+import coach1 from "/images/coach1.jpg";
+import coach2 from "/images/coach2.jpg";
+import coach3 from "/images/coach3.jpg";
 
 export default function Facilitators({ language = "es" }) {
   const content = {
@@ -11,7 +14,7 @@ export default function Facilitators({ language = "es" }) {
         {
           name: "Justin Green",
           title: "Estratega de Transformación",
-          image: "/coach1.jpg",
+          image: coach1,
           highlights: [
             "Fundador de Resilience OS",
             "+10 años trabajando con ejecutivos Fortune 500",
@@ -21,7 +24,7 @@ export default function Facilitators({ language = "es" }) {
         {
           name: "Jordan Sotto",
           title: "Alquimista Energético",
-          image: "/coach2.jpg",
+          image: coach2,
           highlights: [
             "Especialista en neurociencia aplicada",
             "Fusión de prácticas ancestrales y técnicas modernas",
@@ -29,13 +32,13 @@ export default function Facilitators({ language = "es" }) {
           ],
         },
         {
-          name: "KIKO Anpao",
-          title: "Arquitecto Sonoro",
-          image: "/coach3.jpg",
+          name: "Benjo Podlech",
+          title: "Coach de Sanación y Guía de Ceremonias",
+          image: coach3,
           highlights: [
-            "DJ y productor de renombre mundial",
-            "Creador de experiencias sonoras transformacionales",
-            "Presente en los mayores eventos wellness globales",
+            "Más de 12 años de experiencia en sanación con plantas sagradas",
+            "Guía de ceremonias transformadoras para soltar, sanar y renacer",
+            "Conector con la sabiduría ancestral y experto en viajes de transformación profunda",
           ],
         },
       ],
@@ -49,7 +52,7 @@ export default function Facilitators({ language = "es" }) {
         {
           name: "Justin Green",
           title: "Transformation Strategist",
-          image: "/coach1.jpg",
+          image: coach1,
           highlights: [
             "Founder of Resilience OS",
             "10+ years working with Fortune 500 executives",
@@ -59,7 +62,7 @@ export default function Facilitators({ language = "es" }) {
         {
           name: "Jordan Sotto",
           title: "Energy Alchemist",
-          image: "/coach2.jpg",
+          image: coach2,
           highlights: [
             "Applied neuroscience specialist",
             "Blends ancient practices with modern techniques",
@@ -67,13 +70,13 @@ export default function Facilitators({ language = "es" }) {
           ],
         },
         {
-          name: "KIKO Anpao",
-          title: "Sound Architect",
-          image: "/coach3.jpg",
+          name: "Benjo Podlech",
+          title: "Healing Coach and Ceremony Guide",
+          image: coach3,
           highlights: [
-            "World-renowned DJ & producer",
-            "Creator of transformational sound experiences",
-            "Featured at major global wellness events",
+            "Over 12 years of experience in healing with sacred plants",
+            "Guide of transformative ceremonies to release, heal, and rebirth",
+            "Connector with ancestral wisdom and expert in deep transformational journeys",
           ],
         },
       ],

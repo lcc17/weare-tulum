@@ -54,7 +54,7 @@ export default function Hero({ language }) {
         {/* Audience List */}
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           {currentContent.audience.map((item, index) => (
-            <span key={index} className="px-4 py-2 bg-white bg-opacity-10 backdrop-blur-sm rounded-full text-sm text-amber-100 border border-amber-400/30">
+            <span key={index} className="px-4 py-2 bg-grey-200 bg-opacity-10 backdrop-blur-sm rounded-full text-sm text-amber-100 border border-amber-400/30">
               {item}
             </span>
           ))}
