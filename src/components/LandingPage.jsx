@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Facilitators from "./Facilitators";
 import Payment from "./Payment";
 import Footer from "./Footer";
 import Location from "./Location";
+import ThankYou from "./ThankYou";
 
 export default function LandingPage() {
   const [language, setLanguage] = useState("es");
@@ -17,6 +19,9 @@ export default function LandingPage() {
       <Facilitators language={language} />
       <Payment language={language} />
       <Footer language={language} />
+      <Routes>
+      <Route path="/gracias" element={<ThankYou language={language} />} />
+      </Routes>
     </div>
   );
 }
